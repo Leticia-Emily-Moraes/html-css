@@ -1,0 +1,15 @@
+@charset 'UTF-8';
+body{
+    background-color: #00ffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #0000ff;
+    background-color: #7fffd481;
+}
+h2{
+    color: #ff0000;
+}
+p{
+    text-align: justify;
+}
