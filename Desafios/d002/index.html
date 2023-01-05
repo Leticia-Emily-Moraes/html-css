@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Desafio das Imagens</h1>
+    <p>Inserir imagens em HTML é muito simples, tanto no conteúdo quanto lá em cima, como icone de favoritos!</p>
+    <picture>
+        <source media="(max-width: 50px)" srcset="img/github-pp.png" type="image/png">
+        <source media="(max-width: 150px)" srcset="img/github-p.png" type="image/png">
+        <source media="(max-width: 200px)" srcset="img/github-m.png" type="image/png">
+        <source media="(max-width: 500px)" srcset="img/github-g.png" type="image/png">
+        <img src="img/github-gg.png" alt="Imagem Flexivel">
+    </picture>
+</body>
+</html>
