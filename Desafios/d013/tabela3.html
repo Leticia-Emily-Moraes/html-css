@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 2px solid #000000;
+            padding: 10px;
+            text-align: center;
+        }
+        .enfase,.media{
+            border: 2px solid #000000;
+            padding: 10px;
+            text-align: center;
+            background-color: #5d5d5d;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .media{
+            text-align: left;
+        }
+        .materia{
+            border: 2px solid #000000;
+            padding: 10px;
+            text-align: left;
+            font-weight: normal;
+        }
+        .classMateria{
+            border: 2px solid #000000;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cmateria">
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th class="enfase" rowspan="2" scope="col">Área</th>
+                <th class="enfase" rowspan="2" scope="col">Disciplinas</th>
+                <th class="enfase" colspan="2" scope="colgroup">Notas</th>
+                <th class="enfase" rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th class="enfase" scope="col">Nota 1</th>
+                <th class="enfase" scope="col">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="classMateria" rowspan="4" scope="rowgroup">Exatas</th>
+                <td class="materia">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="media" colspan="4" scope="row">Média de Exatas</th>
+                <td class="enfase">0.0</td>
+            </tr>
+            <tr>
+                <th class="classMateria" rowspan="2" scope="rowgroup">Humanas</th>
+                <td class="materia">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td class="materia">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th class="media" colspan="4" scope="row">Média de Humanas</th>
+                <td class="enfase">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
