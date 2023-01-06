@@ -34,3 +34,19 @@ main{
     width: 269px;
     height: 471px;
 }
+#Botoes{
+
+}
+#Botoes a img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px #00000041;
+    box-sizing: border-box;
+}
+#Botoes a img:hover{
+    border: 2px solid #ffffff8e;
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #00000044;
+}
