@@ -9,8 +9,16 @@
 <body>
     <form action="php/cadastro.php" method="POST" autocomplete="on">
         <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="ifem" checked><label for="ifem">Feminino</label>
+            <input type="radio" name="sexo" id="imas"><label for="imas">Masculino</label>
+        </fieldset>
+        <fieldset>
             <legend>Esportes Favoritos</legend>
-            <input type="checkbox" name="Bas" id="">
+            <input type="checkbox" name="bas" id="ibas"><label for="ibas">Basquete</label><br>
+            <input type="checkbox" name="fut" id="ifut"><label for="ifut">Futebol</label><br>
+            <input type="checkbox" name="vol" id="ivol"><label for="ivol">Vôlei</label><br>
+            <input type="checkbox" name="nat" id="inat"><label for="inat">Natação</label><br>
         </fieldset>
             <p>
                 <input type="submit" value="Enviar">
