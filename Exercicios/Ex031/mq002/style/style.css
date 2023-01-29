@@ -5,8 +5,12 @@
 *{
     margin: 0;
     padding: 0;
-}
-html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+}
+html,body{
+    background-color: #233eff;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
