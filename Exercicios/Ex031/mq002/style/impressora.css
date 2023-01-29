@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*Estilo para impressão*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+header{
+    display: none;
+}
+article{
+    width: 100%;
+}
+article::after{
+    content: "Esse artigo foi impresso no site www.aaaaaa.com" ;
+}
