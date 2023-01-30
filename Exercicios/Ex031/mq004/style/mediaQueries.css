@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Todas as demais telas*/
+
+/*
+Mobile – 360 x 640; 375 x 667; 360 x 720.
+Tablet – 768 x 1024.
+iPhone – 375 x 812.
+Laptop – 1366 x 768.
+Desktop or high-resolution laptop – 1920 x 1080
+*/
+@media print {
+    /*a impressão não tem background image*/
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    main{
+        border: 2px solid #000000;
+    }
+    #impressora{
+        display: block;
+        margin: auto;
+    }
+    #celular, #tv, #tablet, #pc{
+        display: none;
+    }
+}
+    
+@media screen and (min-width: 768px){
+    body{
+        background: url(../img/back-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+    #celular, #impressora, #pc, #tv{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background: url(../img/back-pc.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #pc{
+        display: block;
+        margin: auto;
+    }
+    #celular, #impressora, #tablet, #tv{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        background: url(../img/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    #tv{
+        display: block;
+        margin: auto;
+    }
+    #celular, #impressora, #tablet, #pc{
+        display: none;
+    }
+}
