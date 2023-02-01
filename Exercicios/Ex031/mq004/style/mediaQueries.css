@@ -41,7 +41,7 @@ Desktop or high-resolution laptop – 1920 x 1080
     }
 }
 
-@media screen and (min-width: 992px){
+@media screen and (min-width: 1366px){
     body{
         background: url(../img/back-pc.jpg);
         background-size: cover;
@@ -56,7 +56,7 @@ Desktop or high-resolution laptop – 1920 x 1080
     }
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1920px){
     body{
         background: url(../img/back-tv.jpg);
         background-size: cover;

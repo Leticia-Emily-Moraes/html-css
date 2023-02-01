@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Testando media query</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate praesentium sapiente alias et dolore vero laboriosam nobis laborum dolores blanditiis doloribus facere delectus pariatur, non rem excepturi dolorum. Repellat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate praesentium sapiente alias et dolore vero laboriosam nobis laborum dolores blanditiis doloribus facere delectus pariatur, non rem excepturi dolorum. Repellat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate praesentium sapiente alias et dolore vero laboriosam nobis laborum dolores blanditiis doloribus facere delectus pariatur, non rem excepturi dolorum. Repellat!Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate praesentium sapiente alias et dolore vero laboriosam nobis laborum dolores blanditiis doloribus facere delectus pariatur, non rem excepturi dolorum. Repellat!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(nav.style.display == 'block'){
+                nav.style.display = 'none';
+            }
+            else{
+                nav.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
