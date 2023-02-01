@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mediaQuery.css">
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
-        <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <div id="menu"><span class="material-symbols-outlined" onclick="clickMenu()">menu</span></div>
         <nav id="nav">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -35,6 +36,14 @@
             }
             else{
                 nav.style.display = 'block';
+            }
+        }
+        function mudouTamanho(){
+            if(window.innerWidth >= 768){
+                nav.style.display = 'block';
+            }
+            else{
+                nav.style.display = 'none';
             }
         }
     </script>
